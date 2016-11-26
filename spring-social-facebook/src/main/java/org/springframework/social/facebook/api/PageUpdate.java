@@ -28,7 +28,7 @@ public class PageUpdate {
 	
 	private String about;
 	
-	private String bio;
+	//private String bio;
 	
 	private String cover;
 	
@@ -63,10 +63,10 @@ public class PageUpdate {
 		return this;
 	}
 	
-	public PageUpdate bio(String bio) {
-		this.bio = bio;
-		return this;
-	}
+// 	public PageUpdate bio(String bio) {
+// 		this.bio = bio;
+// 		return this;
+// 	}
 	
 	public PageUpdate cover(String cover, Integer offsetX, Integer offsetY, Float zoomScaleX, Float zoomScaleY, Float focusX, Float focusY) {
 		this.cover = cover;
